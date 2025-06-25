@@ -48,6 +48,6 @@
 ### Elementor จำเป็นหรือเปล่า?  
 ไม่จำเป็นหากใช้ Shortcode `[solar_rooftop_estimator]`  
 แต่หากต้องการเพิ่มผ่าน Elementor จะต้องติดตั้ง Elementor ด้วย
-*** (ฟังก์ชั่น widget elementor ยังไม่พร้อม กำลังพัฒนา)
+(ฟังก์ชั่น widget elementor ยังไม่พร้อม กำลังพัฒนา)
 ---
 กำลังพัฒนาเรื่องของ key license api และ ฟังก์ชั่นอื่นๆเพิ่มเติม
