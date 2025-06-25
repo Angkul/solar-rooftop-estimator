@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: solar-rooftop-estimator\n"
+"Report-Msgid-Bugs-To: https://www.ehowme.com/\n"
+"POT-Creation-Date: 2025-06-20 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "กำลังไฟฟ้าที่ระบบโซลาร์เซลล์ผลิตได้"
+msgstr ""
+
+msgid "กิโลวัตต์"
+msgstr ""
+
+msgid "ขนาดติดตั้งแนะนำ"
+msgstr ""
+
+msgid "ของการใช้ไฟทั้งหมด"
+msgstr ""
+
+msgid "ข้อมูลการใช้ไฟฟ้า"
+msgstr ""
+
+msgid "ข้อมูลทั่วไป"
+msgstr ""
+
+msgid "ข้อมูลเป็นเพียงการประเมินเบื้องต้นสามารถเปลี่ยนแปลงได้ตามเงื่อนไขทางวิศวกรรมและปัจจัยอื่น"
+msgstr ""
+
+msgid "คิดเป็นสัดส่วน"
+msgstr ""
+
+msgid "ค่าบริการและดูแลรักษาระบบ (ปี)"
+msgstr ""
+
+msgid "ชื่อผู้ติดต่อ/ชื่อบริษัท"
+msgstr ""
+
+msgid "อีเมล"
+msgstr ""
+
+msgid "08x-xxx-xxxx"
+msgstr ""
+
+msgid "example@email.com"
+msgstr ""
+
+msgid "ดูทั้งหมด"
+msgstr ""
+
+msgid "ตร.ม."
+msgstr ""
+
+msgid "ถัดไป"
+msgstr ""
+
+msgid "บาท"
+msgstr ""
+
+msgid "บิลค่าไฟ (ต่อเดือน)"
+msgstr ""
+
+msgid "บ้าน/ที่พักอาศัย"
+msgstr ""
+
+msgid "ปริมาณใช้ไฟฟ้าช่วงกลางวัน (6.00-18.00 น.)"
+msgstr ""
+
+msgid "ปี"
+msgstr ""
+
+msgid "ผลประหยัดทางภาษี 50% จาก BOI"
+msgstr ""
+
+msgid "ผลประหยัดสุทธิ (25 ปี)"
+msgstr ""
+
+msgid "ผลประหยัดเฉลี่ย (ต่อปี)"
+msgstr ""
+
+msgid "พิมพ์รายละเอียด"
+msgstr ""
+
+msgid "พื้นที่หลังคา"
+msgstr ""
+
+msgid "ฟรีค่าบริการและดูแลรักษาระบบ (ปี)"
+msgstr ""
+
+msgid "มาดูขนาดติดตั้ง Solar Rooftop ของคุณกัน"
+msgstr ""
+
+msgid "ย้อนกลับ"
+msgstr ""
+
+msgid "ระยะเวลาคืนทุน"
+msgstr ""
+
+msgid "ระยะเวลาคืนทุนเมื่อได้รับสิทธิประโยชน์ BOI"
+msgstr ""
+
+msgid "รับรายละเอียดทางอีเมล"
+msgstr ""
+
+msgid "ราคาติดตั้งโดยประมาณ"
+msgstr ""
+
+msgid "รายละเอียด"
+msgstr ""
+
+msgid "ลงทุนเอง (EPC)"
+msgstr ""
+
+msgid "ลงทุนให้ (PPA)"
+msgstr ""
+
+msgid "วัดขนาดหลังคา"
+msgstr ""
+
+msgid "สรุปรายละเอียดติดตั้ง"
+msgstr ""
+
+msgid "หน่วย/ต่อปี"
+msgstr ""
+
+msgid "อาคารสำนักงาน"
+msgstr ""
+
+msgid "อีเมล"
+msgstr ""
+
+msgid "อื่นๆ"
+msgstr ""
+
+msgid "เบอร์โทรศัพท์"
+msgstr ""
+
+msgid "เลือกประเภทอาคาร"
+msgstr ""
+
+msgid "เวลาทำการ"
+msgstr ""
+
+msgid "โปรดระบุพื้นที่หลังคาของคุณ"
+msgstr ""
+
+msgid "โรงงาน"
+msgstr ""
