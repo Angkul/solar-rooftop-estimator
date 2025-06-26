@@ -57,41 +57,5 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 * รองรับ Shortcode `[solar_rooftop_estimator]` พร้อม UI
 * ใช้งานร่วมกับ jQuery UI Slider
 * แสดงผลคำนวณเบื้องต้นพร้อมฟอร์มติดต่อ (WPForms)
-<<<<<<< HEAD
 
-== Upgrade Notice ==
-= 1.1.1 =
-เพิ่มเอกสาร changelog แบบ dev-friendly และปรับปรุง readme สำหรับ WordPress Plugin Directory
-
-== Developer Changelog ==
-
-## [1.1.2] - 2025-06-24
-### Added
-- ระบบตั้งค่าสีผ่าน Settings (Color Picker + Text Input Sync)
-- ใช้ CSS Variables สำหรับธีมสี: `--sre-primary-color`, `--sre-icon-color`, ฯลฯ
-
-### Changed
-- ปรับ style.css ไม่ใช้ค่าสี hard-coded อีกต่อไป
-- `.layout-selector` icon เปลี่ยนสีตามสถานะ active/inactive
-- ปรับคลาสปุ่ม, ไอคอน, และหัวข้อ UI ให้ใช้ค่าจาก Settings แบบ dynamic
-
-### Developer Note
-- ฟังก์ชัน `sre_color_field_callback()` ใช้ร่วมทุกฟิลด์สีได้แบบ DRY
-- ค่าสีดึงจาก `get_option()` แล้ว inject เข้า `:root` ผ่าน `wp_add_inline_style()`
-
-## [1.1.1] - 2025-06-20
-### Changed
-- เพิ่ม Changelog แบบ markdown
-- อัปเดตข้อมูลใน readme.txt ให้เหมาะกับ WordPress.org
-
-## [1.1.0] - 2025-06-19
-### Added
-- รองรับ Elementor Widget
-- รองรับ Composer (PSR-4 Autoload)
-- เพิ่มตั้งค่า WPForms ID ผ่านหลังบ้าน
-
-### Fixed
-- ปรับโหลด Script เฉพาะหน้า shortcode
-- ปรับปรุงระบบแปลภาษา
-=======
 >>>>>>> 1de1670 (Initial commit)
