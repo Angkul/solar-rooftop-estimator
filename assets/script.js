@@ -430,8 +430,11 @@ jQuery(document).ready(function ($) {
 	$('body').on('click', '.user-mailer', function () {
 		fillSummaryToFormEmailOnly(); // ✅ เรียกใช้ฟังก์ชันจากไฟล์ fill-summary-to-form.js
 
+<<<<<<< HEAD
 		$('#wpforms-submit-1464').trigger('click'); // ✅ ส่งฟอร์ม
 
+=======
+>>>>>>> 1de1670 (Initial commit)
 		const userSubmitDone = setInterval(function () {
 			if ($('.wpforms-confirmation-container-full').length) {
 				clearInterval(userSubmitDone);
@@ -448,6 +451,10 @@ jQuery(document).ready(function ($) {
 	var p1 = $('#wpforms-' + wpforms_id + '-field_1').val();
 	var p2 = $('#wpforms-' + wpforms_id + '-field_6').val();
 	var p3 = $('#wpforms-' + wpforms_id + '-field_2').val();
+<<<<<<< HEAD
+=======
+	const emailRegex = /^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/;
+>>>>>>> 1de1670 (Initial commit)
 	function getPassingData() {
 		p1 = $('#wpforms-' + wpforms_id + '-field_1').val();
 		p2 = $('#wpforms-' + wpforms_id + '-field_6').val();
@@ -455,13 +462,40 @@ jQuery(document).ready(function ($) {
 	}
 	$('body').on('keyup', '#wpforms-' + wpforms_id + '-field_1, #wpforms-' + wpforms_id + '-field_6, #wpforms-' + wpforms_id + '-field_2', function () {
 		getPassingData();
+<<<<<<< HEAD
 		if (p1 && p2 && p3) {
+=======
+		const telLength = p2.split("-").join("").length;
+		if (p1 && (p2 && telLength == 10) && (p3 && emailRegex.test(p3))) {
+>>>>>>> 1de1670 (Initial commit)
 			$('.navigator-btn-group').find('.next-step2').removeClass('disabled');
 		}
 		else {
 			$('.navigator-btn-group').find('.next-step2').addClass('disabled');
 		}
 	});
+<<<<<<< HEAD
+=======
+						
+	// ********** เช็ค validate form *************
+	// ------ เบอร์โทร ------
+	$('#wpforms-1398-field_6').on('input', function(event) {
+		const input = event.target.value.replace( /\D/g, '' ).substring(0, 10); //Strip everything but 1st 10 digits
+		const size = input.length;
+		let format = input;
+		if (size > 3) { 
+			format = input.slice(0, 3) + "-"+ input.slice(3) 
+		}
+		if (size > 6) { 
+			format = input.slice(0, 3) + "-" + input.slice(3, 6) + "-" + input.slice(6)
+		}
+        event.target.value = format;
+	});
+	// ------ เบอร์โทร ------
+	$('#wpforms-1398-field_2').on('input', function(event) {
+		
+	});
+>>>>>>> 1de1670 (Initial commit)
 });
 
 jQuery(document).ready(function ($) {

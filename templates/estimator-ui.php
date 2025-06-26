@@ -60,7 +60,11 @@
                             </div>
                         </div>
                         <div class="heading hText">เวลาทำการ</div>
+<<<<<<< HEAD
                         <div>เวลา <select id="time-from" name="time-from" class="time-from">
+=======
+                        <div class="time-form">เวลา <select id="time-from" name="time-from" class="time-from">
+>>>>>>> 1de1670 (Initial commit)
                                 <option>0:00</option>
                                 <option>0:30</option>
                                 <option>1:00</option>
@@ -207,6 +211,10 @@
  							} 
 						?>
 					</div>
+<<<<<<< HEAD
+=======
+					<div class="form-2-hidden">[wpforms id="1464" title="false" description="false"]</div>
+>>>>>>> 1de1670 (Initial commit)
 					<script>
 						const wpforms_id = <?php echo json_encode(get_option('sre_wpforms_id')); ?>;
 					</script>
@@ -361,6 +369,7 @@
                             </li>
                         </ul>
                         <div class="user-action">
+<<<<<<< HEAD
                             <div class="data-holder-form">
                                 <div class="wpforms-container wpforms-container-full" id="wpforms-1464">
                                     <form id="wpforms-form-1464" class="wpforms-validate wpforms-form wpforms-ajax-form"
@@ -429,6 +438,8 @@
                                     </form>
                                 </div>
                             </div>
+=======
+>>>>>>> 1de1670 (Initial commit)
                             <div class="action-btn user-mailer">รับรายละเอียดทางอีเมล</div>
                             <div class="action-btn user-print">พิมพ์รายละเอียด</div>
                         </div>

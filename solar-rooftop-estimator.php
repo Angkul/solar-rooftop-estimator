@@ -1,7 +1,11 @@
 <?php
 /**
  * Plugin Name: Solar Rooftop Estimator
+<<<<<<< HEAD
  * Plugin URI: https://www.ehowme.com/solar-rooftop-estimator
+=======
+ * Plugin URI: https://www.ehowme.com/
+>>>>>>> 1de1670 (Initial commit)
  * Description: คำนวณขนาดติดตั้งโซลาร์รูฟท็อปพร้อมแสดงผล
  * Version: 1.1.3
  * Requires at least: 5.0

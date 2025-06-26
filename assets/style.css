@@ -655,3 +655,23 @@
 .hidden-summary {
     display: none !important;
 }
+<<<<<<< HEAD
+=======
+
+.time-form {
+	display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.time-form .time-from,
+.time-form .time-to {
+	width: fit-content;
+}
+
+.form-2-hidden {
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+>>>>>>> 1de1670 (Initial commit)

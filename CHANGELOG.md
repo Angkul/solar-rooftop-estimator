@@ -4,7 +4,11 @@ Tags: solar, calculator, rooftop, energy, estimator
 Requires at least: 5.0
 Tested up to: 6.5
 Requires PHP: 8.2
+<<<<<<< HEAD
 Stable tag: 1.1.2
+=======
+Stable tag: 1.1.3
+>>>>>>> 1de1670 (Initial commit)
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +24,14 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
+<<<<<<< HEAD
+=======
+= 1.1.3 - 2025-06-26 =
+* แก้ไขเมลหน้าสรุป bug ส่งแล้วเมลไม่ไป
+* แก้ field input เวลาทำการ
+* แก้ format input form หน้า ข้อมูลทั่วไป
+
+>>>>>>> 1de1670 (Initial commit)
 = 1.1.2 - 2025-06-24 =
 * เพิ่มระบบตั้งค่าสีผ่าน Settings Dashboard (Color Picker + ช่องกรอก Color Code)
 * แสดงผล Theme สีผ่าน CSS Variables: `--sre-primary-color`, `--sre-button-color` ฯลฯ
@@ -45,6 +57,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 * รองรับ Shortcode `[solar_rooftop_estimator]` พร้อม UI
 * ใช้งานร่วมกับ jQuery UI Slider
 * แสดงผลคำนวณเบื้องต้นพร้อมฟอร์มติดต่อ (WPForms)
+<<<<<<< HEAD
 
 == Upgrade Notice ==
 = 1.1.1 =
@@ -80,3 +93,5 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 ### Fixed
 - ปรับโหลด Script เฉพาะหน้า shortcode
 - ปรับปรุงระบบแปลภาษา
+=======
+>>>>>>> 1de1670 (Initial commit)

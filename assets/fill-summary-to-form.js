@@ -88,4 +88,18 @@ function fillSummaryToFormEmailOnly() {
 		emailInput.value = sourceEmail;
 	}
 	console.log(sourceEmail);
+<<<<<<< HEAD
 }
+=======
+
+	setTimeout(() => {
+		const form = document.querySelector('#wpforms-form-1464');
+		if (form) {
+			form.requestSubmit();
+			console.log("✅ ส่งฟอร์มเรียบร้อยแล้ว");
+		} else {
+			console.log("❌ ไม่พบฟอร์ม wpforms-form-1464");
+		}
+	}, 300); // หน่วงเวลาให้ DOM โหลดฟอร์มให้เสร็จก่อน
+}
+>>>>>>> 1de1670 (Initial commit)
